@@ -41,18 +41,18 @@ dependencies {
 
 
     //retrofit2+rxjava2+rxlifecycle2 网络请求框架
-    compile "io.reactivex.rxjava2:rxjava:2.1.3"
-    compile "io.reactivex.rxjava2:rxandroid:2.0.1"
-    compile "com.squareup.retrofit2:retrofit:2.3.0"
-    compile "com.squareup.retrofit2:converter-gson:2.3.0"
-    compile "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
-    compile "com.jakewharton.rxrelay2:rxrelay:2.0.0"
-    compile "com.trello.rxlifecycle2:rxlifecycle-android:2.2.1"
-    compile "com.trello.rxlifecycle2:rxlifecycle-components:2.2.1"
+    api "io.reactivex.rxjava2:rxjava:2.1.3"
+    api "io.reactivex.rxjava2:rxandroid:2.0.1"
+    api "com.squareup.retrofit2:retrofit:2.3.0"
+    api "com.squareup.retrofit2:converter-gson:2.3.0"
+    api "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+    api "com.jakewharton.rxrelay2:rxrelay:2.0.0"
+    api "com.trello.rxlifecycle2:rxlifecycle-android:2.2.1"
+    api "com.trello.rxlifecycle2:rxlifecycle-components:2.2.1"
 
     //okhttp3
-    compile "com.squareup.okhttp3:okhttp:3.10.0"
-    compile "com.squareup.okhttp3:logging-interceptor:3.9.0"
+    api "com.squareup.okhttp3:okhttp:3.10.0"
+    api "com.squareup.okhttp3:logging-interceptor:3.9.0"
 
 }
 
